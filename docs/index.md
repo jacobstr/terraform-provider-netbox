@@ -27,3 +27,4 @@ provider netbox {
 * `url` or `NETBOX_URL` environment variable to define the URL and the port (127.0.0.1:8000 by default)
 * `token` or `NETBOX_TOKEN` environment variable to define the TOKEN to access the application (empty by default)
 * `scheme` or `NETBOX_SCHEME` environment variable to define the SCHEME of the URL (https by default)
+* `insecure` or `NETBOX_INSECURE` environment variable to skip or not the TLS certificat validation (false by default)
